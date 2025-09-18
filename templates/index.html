@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YOLOv8 Live Object Detection</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        img { border: 5px solid #555; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Object Detection with YOLOv8</h1>
+    <p>Your model is running live from your webcam!</p>
+    <img src="{{ url_for('video_feed') }}" width="70%">
+</body>
+</html>
